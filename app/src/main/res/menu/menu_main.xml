@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/remove_current_task"
+        android:title="@string/remove_current_task"
+        android:icon="@drawable/ic_remove_current_task"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/remove_all_tasks"
+        android:title="@string/remove_all_tasks"
+        android:icon="@drawable/ic_remove_all_tasks"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/night_mode"
+        android:title="@string/night_mode"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/DeleteItemsDialogTheme</item>
+    </style>
+
+    <style name="DialogDayNightTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="colorAccent">@color/colorAccentNonTransparent</item>
+    </style>
+
+    <style name="DeleteItemsDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyleForDeletion</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyleForDeletion</item>
+    </style>
+
+    <style name="NegativeButtonStyleForDeletion" parent="Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccentNonTransparent</item>
+    </style>
+
+    <style name="PositiveButtonStyleForDeletion" parent="Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+</resources>
